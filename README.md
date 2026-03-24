@@ -25,15 +25,11 @@ The goal is to test whether **critical phenomena** in statistical physics can ex
 ## Model
 
 ### Trader Representation
-- Spin \( s_{i,j} \in \{-1, +1\} \)
+- Spin \( s{i,j} \in \{-1, +1\} \)
   - +1 → Buy
   - -1 → Sell
 
 ### Hamiltonian
-\[
-E = -J \sum_{\langle i,j \rangle} s_i s_j - h \sum_i s_i
-\]
-
 - \( J = 1 \): herding strength  
 - \( h \): external field (market shock)
 
